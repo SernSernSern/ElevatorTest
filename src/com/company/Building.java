@@ -129,7 +129,7 @@ public class Building {
     }
 
     private void showInformation( int removedPassengers, int addedPassengers){
-        System.out.println("----------- Step " + " -----------");
+        System.out.println("----------- Step -----------");
         System.out.print(this.toString());
         System.out.println("Leave: "+ removedPassengers + " Entry: " + addedPassengers + "\n");
     }
